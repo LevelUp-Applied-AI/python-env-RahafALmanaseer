@@ -35,3 +35,19 @@ I use a Jupyter notebook when I want to test things step by step and see the out
 
 
 I use a Python script when I want to run the whole program from the terminal. Scripts are better for clean and reusable code.
+
+## How to run
+
+1. Set up the environment:
+   - Create and activate the virtual environment
+   - Install dependencies:
+     pip install -r requirements.txt
+
+2. Run the code:
+   - From the project root directory, run:
+     python src/smoke_test.py
+
+3. Confirm success:
+   - The script should run without errors.
+   - All tests should pass if you run:
+     pytest.
